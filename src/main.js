@@ -7,6 +7,8 @@ import goods from 'components/goods/goods';
 import sellers from 'components/sellers/sellers';
 import ratings from 'components/ratings/ratings';
 
+import 'common/stylus/index.styl';
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -24,7 +26,7 @@ const router = new VueRouter({
 // export default router;
 
 new Vue({
-  // el: '#app',
+  el: '#app',
   router,
   render: h => h(App)
-}).$mount('#app');
+});
