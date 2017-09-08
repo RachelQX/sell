@@ -1,7 +1,7 @@
 {
-  "name": "test",
+  "name": "sell",
   "version": "1.0.0",
-  "description": "vue testtest",
+  "description": "sell App",
   "author": "RachelQX",
   "private": true,
   "scripts": {
